@@ -545,11 +545,11 @@
 
     &__basement-link {
         display: block;
+        transition: all .3s;
+        &:hover{
+            color: vars.$primary-color;
+        }
     }
-
-    &__copyright {}
-
-    &__copyright-text {}
 
     &__payments {
         align-items: center;
