@@ -1,15 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <meta name="viewport" content="width=devicge-width, initial-scale=1.0">
+    <title>Waffle pantry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doppio+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <main class="main">
         <header class="header">
-            
+            <div class="header__top">
+                <div class="header__top-boxes">
+                    <div class="header__top-box">
+                        <img src="./images/logo.svg" alt="" class="header__top-logo">
+                    </div>
+                    <nav class="header__top-nav">
+                        <ul class="header__top-menu">
+                            <li class="header__top-menu-item">
+                                <a href="#" class="header__top-menu-link">Wholesale</a>
+                            </li>
+                            <li class="header__top-menu-item">
+                                <a href="#" class="header__top-menu-link">Recipes</a>
+                            </li>
+                            <li class="header__top-menu-item">
+                                <a href="#" class="header__top-menu-link">Blog</a>
+                            </li>
+                            <li class="header__top-menu-item">
+                                <a href="#" class="header__top-menu-link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <nav class="header__bottom-nav">
+                    <ul class="header__bottom-menu">
+                        <li class="header__bottom-menu-item">
+                            <a href="#" class="header__bottom-menu-link">belgian pearl sugar</a>
+                        </li>
+                        <li class="header__bottom-menu-item">
+                            <a href="#" class="header__bottom-menu-link">liege waffle mix</a>
+                        </li>
+                        <li class="header__bottom-menu-item">
+                            <a href="#" class="header__bottom-menu-link">liege waffle maker</a>
+                        </li>
+                        <li class="header__bottom-menu-item">
+                            <a href="#" class="header__bottom-menu-link">speciality ingredients</a>
+                        </li>
+                    </ul>
+                    <div class="header__bottom-btns">
+                        <input type="text" class="header__bottom-search" placeholder="Search">
+                        <a href="#" class="header__bottom-cart">
+                            <img src="./images/cart.svg" alt="" class="header__bottom-cart-img">
+                        </a>
+                        <a href="#" class="header__bottom-login">
+                            <img src="./images/user.svg" alt="" class="header__bottom-user">
+                            <p class="header__bottom-signin">Sign In</p>
+                        </a>
+                    </div>
+                </nav>
+            </div>
         </header>
+
+        <!-- <section class="top">
+            <div class="top__inner">
+                <div class="top__slider">
+                    <div class="top__slider-item">
+                        <img src="./images/top-big-slide.png" alt="" class="top__slide">
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="./images/top-big-slide.png" alt="" class="top__slide">
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="./images/top-big-slide.png" alt="" class="top__slide">
+                    </div>
+                    <div class="top__slider-item">
+                        <img src="./images/top-big-slide.png" alt="" class="top__slide">
+                    </div>
+                </div>
+                <div class="top__box">
+                    <div class="top__descr">
+                        <h1 class="top__descr-title">PEARL SUGAR</h1>
+                        <p class="top__descr-text">
+                            But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                            pain
+                            was born and I will give you a complete account of the system, and expound.
+                        </p>
+                        <a href="#" class="top__btn">Shop now</a>
+                    </div>
+                    <div class="top__small-slider">
+                        <div class="top__small-slider-item">
+                            <img src="./images/top-smal-slide.png" alt="" class="top__small-slide">
+                        </div>
+                        <div class="top__small-slider-item">
+                            <img src="./images/top-smal-slide.png" alt="" class="top__small-slide">
+                        </div>
+                        <div class="top__small-slider-item">
+                            <img src="./images/top-smal-slide.png" alt="" class="top__small-slide">
+                        </div>
+                        <div class="top__small-slider-item">
+                            <img src="./images/top-smal-slide.png" alt="" class="top__small-slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- <section class="example">
+            <div class="example__buttons">
+                <div class="example__button">
+                    <p class="example__buuton-text">Home baker</p>
+                </div>
+                <div class="example__button">
+                    <img src="./images/cook.svg" alt="" class="example__button-img">
+                    <p class="example__buuton-text">professional</p>
+                </div>
+            </div>
+            <div class="example__inner">
+                <div class="example__slider">
+                    <div class="example__slide">
+                        
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="authentic">
+            <div class="authentic__inner">
+                <h2 class="authentic__title">Authentic <span>recipes</span></h2>
+                <p class="authentic__descr">
+                    Try one of our pearl sugar recipe at the comfort of your home.
+                    In the kitchen with waffle pantry.
+                </p>
+                <div class="authentic__boxes">
+                    <div class="authentic__box">
+
+                        <div class="authentic__img">
+                            <img src="./images/authentic-1.png" alt="" class="authentic-img">
+                        </div>
+                        <button class="authentic__share-btn"><img src="./images/share.svg" alt=""
+                                class="authentic__share-img"></button>
+                        <div class="authentic__stars">
+                            <img src="./images/authentic-stars.png" alt="" class="authentic__stars-img">
+                        </div>
+                        <h4 class="authentic__box-title">traditional liege waffle</h4>
+                        <div class="authentic__box-time">
+                            <img src="../images/clock.svg" alt="" class="authentic__box-clock">
+                            <p class="authentic__box-time-min">45 min</p>
+                        </div>
+                        <p class="authentic__box-descr">
+                            Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with waffle
+                            pantry.
+                        </p>
+                    </div>
+                    <div class="authentic__box">
+
+                        <div class="authentic__img">
+                            <img src="./images/authentic-2.png" alt="" class="authentic-img">
+                        </div>
+                        <button class="authentic__share-btn"><img src="./images/share.svg" alt=""
+                                class="authentic__share-img"></button>
+                        <div class="authentic__stars">
+                            <img src="./images/authentic-stars.png" alt="" class="authentic__stars-img">
+                        </div>
+                        <h4 class="authentic__box-title">traditional liege waffle</h4>
+                        <div class="authentic__box-time">
+                            <img src="../images/clock.svg" alt="" class="authentic__box-clock">
+                            <p class="authentic__box-time-min">45 min</p>
+                        </div>
+                        <p class="authentic__box-descr">
+                            Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with waffle
+                            pantry.
+                        </p>
+                    </div>
+                    <div class="authentic__box">
+
+                        <div class="authentic__img">
+                            <img src="./images/authentic-3.png" alt="" class="authentic-img">
+                        </div>
+                        <button class="authentic__share-btn"><img src="./images/share.svg" alt=""
+                                class="authentic__share-img"></button>
+                        <div class="authentic__stars">
+                            <img src="./images/authentic-stars.png" alt="" class="authentic__stars-img">
+                        </div>
+                        <h4 class="authentic__box-title">traditional liege waffle</h4>
+                        <div class="authentic__box-time">
+                            <img src="../images/clock.svg" alt="" class="authentic__box-clock">
+                            <p class="authentic__box-time-min">45 min</p>
+                        </div>
+                        <p class="authentic__box-descr">
+                            Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with waffle
+                            pantry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="authentic__discover">
+                    <a href="#" class="authentic__discover-link">discover more recipes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="authentic fresh">
+            <div class="authentic__inner">
+                <h2 class="authentic__title"><span>FRESH</span> OFF THE PRESS</h2>
+                <p class="authentic__descr">
+                    Try one of our pearl sugar recipe at the comfort of your home.
+                    In the kitchen with waffle pantry.
+                </p>
+                <div class="authentic__boxes">
+                    <div class="authentic__box">
+
+                        <div class="authentic__img">
+                            <img src="./images/authentic-4.png" alt="" class="authentic-img">
+                        </div>
+                        <div class="authentic__fresh">
+                            <h4 class="authentic__box-title fresh">traditional liege waffle</h4>
+                            <h5 class="authentic__box-sub-title">Name of the press</h5>
+                            <p class="authentic__box-descr fresh">
+                                Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with
+                                waffle pantry. But I must explain to you how all this mistaken idea of denouncing
+                                pleasure and praising pain was born.
+                            </p>
+                            <a href="#" class="authentic__link">read more</a>
+                        </div>
+                    </div>
+                    <div class="authentic__box">
+
+                        <div class="authentic__img">
+                            <img src="./images/authentic-5.png" alt="" class="authentic-img">
+                        </div>
+                        <div class="authentic__fresh">
+                            <h4 class="authentic__box-title fresh">traditional liege waffle</h4>
+                            <h5 class="authentic__box-sub-title">Name of the press</h5>
+                            <p class="authentic__box-descr fresh">
+                                Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with
+                                waffle pantry. But I must explain to you how all this mistaken idea of denouncing
+                                pleasure and praising pain was born.
+                            </p>
+                            <a href="#" class="authentic__link">read more</a>
+                        </div>
+                    </div>
+                    <div class="authentic__box">
+                        <div class="authentic__img">
+                            <img src="./images/authentic-6.png" alt="" class="authentic-img">
+                        </div>
+                        <div class="authentic__fresh">
+                            <h4 class="authentic__box-title fresh">traditional liege waffle</h4>
+                            <h5 class="authentic__box-sub-title">Name of the press</h5>
+                            <p class="authentic__box-descr fresh">
+                                Try one of our pearl sugar recipe at the comfort of your home. In the kitchen with
+                                waffle pantry. But I must explain to you how all this mistaken idea of denouncing
+                                pleasure and praising pain was born.
+                            </p>
+                            <a href="#" class="authentic__link">read more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="authentic__discover">
+                    <a href="#" class="authentic__discover-link">discover more</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
     </main>
+    <footer class="footer">
+        <div class="footer__inner">
+
+            <div class="footer__social">
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-link">
+                        <img src="./images/instagram.svg" alt="" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="./images/pinterest.svg" alt="" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="./images/facebook.svg" alt="" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="./images/linkedin.svg" alt="" class="footer__social-img">
+                    </a>
+                    <a href="#" class="footer__social-link">
+                        <img src="./images/twiter.svg" alt="" class="footer__social-img">
+                    </a>
+                </div>
+
+                <div class="footer__social-contacts">
+                    <p class="footer__social-contacts-question">Have More Questions?</p>
+                    <a href="tel:5304235784" class="footer__social-contacts-link tel">(530) 423 5784</a>
+                    <a href="mailto:info@wafflepantry.com"
+                        class="footer__social-contacts-link mail">info@wafflepantry.com</a>
+                </div>
+            </div>
+
+
+            <div class="footer__information">
+                <div class="footer__information-block">
+                    <h3 class="footer__information-title">information</h3>
+                    <a href="#" class="footer__information-link">Financing</a>
+                    <a href="#" class="footer__information-link">Return Policy & Warranty</a>
+                    <a href="#" class="footer__information-link">About Us</a>
+                    <a href="#" class="footer__information-link">Shipping Information</a>
+                    <a href="#" class="footer__information-link">FAQ</a>
+                </div>
+                <div class="footer__information-block">
+                    <h3 class="footer__information-title">Customer service</h3>
+                    <a href="#" class="footer__information-link">Contact Us</a>
+                    <a href="#" class="footer__information-link">Returns</a>
+                    <a href="#" class="footer__information-link">Gift Vouchers</a>
+                    <a href="#" class="footer__information-link">Specials</a>
+                </div>
+                <div class="footer__information-block">
+                    <h3 class="footer__information-title">my account</h3>
+                    <a href="#" class="footer__information-link">My Account</a>
+                    <a href="#" class="footer__information-link">Order History</a>
+                    <a href="#" class="footer__information-link">Newsletter</a>
+                </div>
+                <div class="footer__information-block">
+                    <h4 class="footer__information-sub-title">Main Office & Distr. Center:</h4>
+                    <p class="footer__information-adress">
+                        847 E Edna <br>
+                        Covina, CA 91723
+                    </p>
+                    <div class="footer__information-line"></div>
+                    <h4 class="footer__information-adress-distributor-title">Distribution Center:</h4>
+                    <p class="footer__information-adress-distributor-text">Philadelphia, PA 19133</p>
+                </div>
+                <div class="footer__information-block">
+                    <div class="footer__information-map">
+                        <img src="./images/map.png" alt="" class="footer__information-map-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__basement">
+            <div class="footer__basement__inner">
+                <div class="footer__basement-linlks">
+                    <a href="#" class="footer__basement-link">Privacy Policy</a>
+                    <a href="#" class="footer__basement-link">Terms & Conditions</a>
+                    <a href="#" class="footer__basement-link">Sitemap</a>
+                </div>
+                <div class="footer__copyright">
+                    <p class="footer__copyright-text">Waffle Pantry® is a registered trademark of Cambridgeshire Corp.
+                        Waffle Pantry © 2023</p>
+                </div>
+                <div class="footer__payments">
+                    <img src="./images/visa.png" alt="" class="footer__payments-img">
+                    <img src="./images/master.png" alt="" class="footer__payments-img">
+                    <img src="./images/discover.png" alt="" class="footer__payments-img">
+                    <img src="./images/comodo.png" alt="" class="footer__payments-img">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
