@@ -26,11 +26,11 @@
         &::before {
             content: "";
             position: absolute;
-            width: 150px;
-            height: 125px;
+            width: 153px;
+            height: 155px;
             background-color: vars.$primary-container;
-            top: 0;
-            left: -20px;
+            top: -32px;
+            left: -21px;
             border-radius: 0 0 50% 50%;
             z-index: 1;
         }
